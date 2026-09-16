@@ -1,0 +1,27 @@
+# --- core ---
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+joblib>=1.3
+
+# --- models (optional but recommended; code falls back to sklearn) ---
+lightgbm>=4.0
+xgboost>=2.0
+optuna>=3.4
+
+# --- explainability & monitoring ---
+shap>=0.44
+evidently>=0.4
+
+# --- serving ---
+fastapi>=0.110
+uvicorn[standard]>=0.27
+pydantic>=2.5
+streamlit>=1.30
+
+# --- tracking ---
+mlflow>=2.10
+
+# --- viz ---
+matplotlib>=3.7
+seaborn>=0.13
